@@ -1,0 +1,23 @@
+<!-- begin postxml -->
+<!-- Shortcut -->
+<characteristic type="FileOperation">
+  <characteristic type="%CE11%" translation="install">
+    <characteristic type="MakeDir" />
+    <characteristic type="実況！ニコみうどん.lnk" translation="install">
+      <characteristic type="Shortcut">
+        <parm name="Source" value="%InstallDir%\NiCoMiudon.exe" translation="install" />
+      </characteristic>
+    </characteristic>
+  </characteristic>
+</characteristic>
+<characteristic type="Registry">
+  <!-- Support for AppToDate -->
+  <characteristic type="HKCU\Software\MoDaCo\AppToDate\XML" translation="install">
+    <parm name="実況！ニコみうどん" value="%InstallDir%\NiCoMiudon.xml" datatype="string" translation="install" />
+  </characteristic>
+  <!-- WM6.5 Startmenu icon -->
+  <characteristic type="HKLM\Security\Shell\StartInfo\Start\実況！ニコみうどん.lnk" translation="install">
+    <parm name="Icon" value="%InstallDir%\NiCoMiudon.png" datatype="string" translation="install" />
+  </characteristic>
+</characteristic>
+<!-- end postxml -->

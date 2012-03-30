@@ -1,0 +1,7 @@
+<application>
+<name>実況！ニコみうどん</name>
+<version>0.24</version>
+<description><b>実況！ニコみうどん</b><br /><br />ニコニコ実況クライアントです。<br />http://labs.m2hq.net/NiCoMiudon/</description>
+<versionurl>http://labs.m2hq.net/dist/NiCoMiudon/AppToDate.xml</versionurl>
+<caburl>http://labs.m2hq.net/dist/NiCoMiudon/NiCoMiudon_latest.CAB</caburl>
+</application>
